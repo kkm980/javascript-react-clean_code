@@ -11,7 +11,8 @@ One liner clean code snippets in javascript/react with ES6 syntax
 | No. | Code                                                                                                                                                         |
 | --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1   | [Add a key-value pair in object conditionally](#add-a-key-value-pair-in-object-conditionally)                                         |
-                                                |
+
+
 
 1. ### Add a key-value pair in object conditionally
 
