@@ -16,7 +16,27 @@ One liner clean code snippets in javascript/react with ES6 syntax
 
 1. ### Add a key-value pair in object conditionally
 
-   Spread operator is used to spread one object and conditional operator && to achieve the task conditionally
+
+   
+   **Plain conditional operation**
+
+      ```javascript
+        const is_employee=true;
+
+        const student={
+            name:'Krishna Kant',
+            roll:'AD203',
+            stream:'MERN stack web development',
+            ...(is_employee && {company:'Inventives.ai})
+        }
+
+        if(is_employee){
+            student.company='Inventives.ai';
+        }
+      ```
+
+
+   We will use Spread operator to spread new object with one property inside the previously defined object and the conditional operator `&&` to achieve the task conditionally
 
    1. **While defining the object:**
 
@@ -33,7 +53,7 @@ One liner clean code snippets in javascript/react with ES6 syntax
         }
       ```
 
-     2. **After object has been defined**
+   2. **After object has been defined**
 
       We are injecting the new property after the object has been defined with its default key value pairs.
 
