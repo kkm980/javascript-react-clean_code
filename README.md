@@ -18,8 +18,6 @@ One liner clean code snippets in javascript/react with ES6 syntax
 
 
 1. ### Add a key-value pair in object conditionally
-
-
    
    **Plain conditional operation**
 
@@ -43,7 +41,7 @@ One liner clean code snippets in javascript/react with ES6 syntax
 
    1. **While defining the object:**
 
-     -- We are injecting the new property at time of defining the object only
+     - We are injecting the new property at time of defining the object only
 
       ```javascript
         const is_employee=true;
@@ -58,7 +56,7 @@ One liner clean code snippets in javascript/react with ES6 syntax
 
    2. **After object has been defined**
 
-     -- We are injecting the new property after the object has been defined with its default key value pairs.
+     - We are injecting the new property after the object has been defined with its default key value pairs.
 
       ```javascript
          const is_employee=true;
@@ -97,7 +95,7 @@ One liner clean code snippets in javascript/react with ES6 syntax
       ```
 
 
-   -- We will use Spread operator to delete one property inside the previously defined object.
+   - We will use Spread operator to delete one property inside the previously defined object.
    
      ```javascript
         let student={
