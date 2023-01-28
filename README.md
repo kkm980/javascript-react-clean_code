@@ -11,6 +11,7 @@ One liner clean code snippets in javascript/react with ES6 syntax
 | No. | Code                                                                                                                                                         |
 | --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1   | [Add a key-value pair in object conditionally](#add-a-key-value-pair-in-object-conditionally)                                         |
+| 2   | [Deleting a particular key from object](#deleting-a-particular-key-from-object)                                                       |
 
 
 ---
@@ -30,11 +31,11 @@ One liner clean code snippets in javascript/react with ES6 syntax
             roll:'AD203',
             stream:'MERN stack web development',
             ...(is_employee && {company:'Inventives.ai})
-        }
+        };
 
         if(is_employee){
             student.company='Inventives.ai';
-        }
+        };
       ```
 
 
@@ -42,7 +43,7 @@ One liner clean code snippets in javascript/react with ES6 syntax
 
    1. **While defining the object:**
 
-      We are injecting the new property at time of defining the object only
+     -- We are injecting the new property at time of defining the object only
 
       ```javascript
         const is_employee=true;
@@ -52,26 +53,65 @@ One liner clean code snippets in javascript/react with ES6 syntax
             roll:'AD203',
             stream:'MERN stack web development',
             ...(is_employee && {company:'Inventives.ai})
-        }
+        };
       ```
 
    2. **After object has been defined**
 
-      We are injecting the new property after the object has been defined with its default key value pairs.
+     -- We are injecting the new property after the object has been defined with its default key value pairs.
 
       ```javascript
          const is_employee=true;
          let student={
           name:'Krishna Kant',
           roll:'AD203'
-         }
+         };
+
          student={
           ...student,
           ...(is_employee && {company: 5})
-         }
+         };
       ```
 
       **[⬆ Back to Top](#table-of-contents)**
+
+
+
+2. ### Deleting a particular key from object
+
+
+   
+   **Plain conditional operation**
+
+      ```javascript
+        const is_employee=true;
+
+        const student={
+            name:'Krishna Kant',
+            roll:'AD203',
+            stream:'MERN stack web development',
+            company:'Inventives.ai'
+        };
+
+        delete student.salary;
+      ```
+
+
+   -- We will use Spread operator to delete one property inside the previously defined object.
+   
+     ```javascript
+        let student={
+            name:'Krishna Kant',
+            roll:'AD203',
+            stream:'MERN stack web development',
+            company:'Inventives.ai'
+        };
+
+        let {company, ...newStudent} = student;
+        student=newStudent;
+
+      ```
+
 
 
 ## Disclaimer
