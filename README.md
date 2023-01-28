@@ -26,9 +26,7 @@ One liner clean code snippets in javascript/react with ES6 syntax
 
         const student={
             name:'Krishna Kant',
-            roll:'AD203',
-            stream:'MERN stack web development',
-            ...(is_employee && {company:'Inventives.ai})
+            roll:'AD203'
         };
 
         if(is_employee){
