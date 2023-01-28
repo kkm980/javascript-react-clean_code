@@ -22,13 +22,14 @@ One liner clean code snippets in javascript/react with ES6 syntax
       We are injecting the new property at time of defining the object only
 
       ```javascript
-         const is_employee=true;
-         const student={
+        const is_employee=true;
+
+        const student={
             name:'Krishna Kant',
             roll:'AD203',
             stream:'MERN stack web development',
             ...(is_employee && {company:'Inventives.ai})
-         }
+        }
       ```
 
      2. **After object has been defined**
@@ -38,13 +39,13 @@ One liner clean code snippets in javascript/react with ES6 syntax
       ```javascript
          const is_employee=true;
          let student={
-            name:'Krishna Kant',
-            roll:'AD203'
+          name:'Krishna Kant',
+          roll:'AD203'
          }
-        is_employee && student={
-            ...student,
-            company:'Inventives.ai'
-        }
+         student={
+          ...student,
+          ...(is_employee && {company: 5})
+         }
       ```
 
       **[⬆ Back to Top](#table-of-contents)**
