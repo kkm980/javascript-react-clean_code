@@ -43,7 +43,7 @@ One liner clean code snippets in javascript/react with ES6 syntax
          }
         is_employee && student={
             ...student,
-            current_company:'Inventives.ai'
+            company:'Inventives.ai'
         }
       ```
 
