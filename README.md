@@ -110,6 +110,8 @@ One liner clean code snippets in javascript/react with ES6 syntax
 
       ```
 
+    **[⬆ Back to Top](#table-of-contents)**
+
 
 
 ## Disclaimer
