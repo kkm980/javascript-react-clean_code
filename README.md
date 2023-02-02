@@ -8,16 +8,51 @@ One liner clean code snippets in javascript/react with ES6 syntax
 
 ### Table of Contents
 
-| No. | Code                                                                                                                                                         |
+| No. | Code                                                                            |                                                                           |
 | --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1   | [Add a key-value pair in object conditionally](#add-a-key-value-pair-in-object-conditionally)                                         |
-| 2   | [Deleting a particular key from object](#deleting-a-particular-key-from-object)                                                       |
+
+| 1   | [Conditional statement]
+(#conditional-statement)             
+          |
+| 2   | [Add a key-value pair in object conditionally](#add-a-key-value-pair-in-object-conditionally)                                         |
+| 3   | [Deleting a particular key from object](#deleting-a-particular-key-from-object)                                                |
+| 4   | [filling-array-with-dummy-values](#deleting-a-particular-key-from-object)                                                |
 
 
 ---
 
 
-1. ### Add a key-value pair in object conditionally
+1. ### Conditional Statement
+
+
+   
+   **Plain conditional operation**
+
+      ```javascript
+        const is_employee=true;
+        let company
+        if(is_employee){
+          company='Inventives.ai';
+        }
+        else{
+          company=null;
+        }
+      ```
+
+
+   - We will use Ternary operator
+   
+     ```javascript
+        const is_employee=true;
+        let company = is_employee?company='Inventives.ai':company=null;
+      ```
+
+    **[⬆ Back to Top](#table-of-contents)**
+
+
+
+
+2. ### Add a key-value pair in object conditionally
    
    **Plain conditional operation**
 
@@ -73,10 +108,8 @@ One liner clean code snippets in javascript/react with ES6 syntax
 
 
 
-2. ### Deleting a particular key from object
+3. ### Deleting a particular key from object
 
-
-   
    **Plain conditional operation**
 
       ```javascript
@@ -112,6 +145,36 @@ One liner clean code snippets in javascript/react with ES6 syntax
 
 
  - More code snippets are being added
+
+
+4. ### Filling array with dummy values
+
+
+   
+   **Plain conditional operation**
+
+      ```javascript
+        const arr_length=6;
+        for(let i=0;i<arr_length;i++){
+          dummyArr[i] {'written_by' : 'Krishna Kant'};
+        }
+      ```
+
+
+   - We will use Array instance with Higher Order Function--> array.map()
+   
+     ```javascript
+
+        const arr_length=6;
+        let dummyArr = new Array(arr_length).fill(null).map(()=>({'written_by' : 'Krishna Kant'}));
+      ```
+
+    **[⬆ Back to Top](#table-of-contents)**
+
+
+
+
+
 ## Disclaimer
 
 The code snippets mentioned in this repository are the summary of frequently used codes in Javascript and/or React with ES6 syntax. We cannot guarantee that only these snippets will actually make the code cleaner, smoother and optimised, nor should you focus on copying and pasting them all. The primary purpose is for you to get a sense of how some bulk codes might be replaced with one-liner ES6 conditional and operational statements!
