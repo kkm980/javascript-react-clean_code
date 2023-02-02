@@ -11,13 +11,11 @@ One liner clean code snippets in javascript/react with ES6 syntax
 | No. | Questions                                                                                                                                                                                                                        |
 | --- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |     | **Core React**                                                                                                                                                                                                                   |
-| 1   | [Conditional statement](#conditional-statement)             |
+| 1   | [Conditional statement](#conditional-statement)                                                                                                                                                                                                 |
+| 2   | [Add a key-value pair in object conditionally](#add-a-key-value-pair-in-object-conditionally)                                                                                                                                                   |
+| 3   | [Deleting a particular key from object](#deleting-a-particular-key-from-object)                                                                                                                                                                                                    |
+| 4   | [filling-array-with-dummy-values](#deleting-a-particular-key-from-object)                                                                                                                    |
 
-| 2   | [Add a key-value pair in object conditionally](#add-a-key-value-pair-in-object-conditionally)                     |
-
-| 3   | [Deleting a particular key from object](#deleting-a-particular-key-from-object)             |
-
-| 4   | [filling-array-with-dummy-values](#deleting-a-particular-key-from-object)                                                |
 
 
 ---
