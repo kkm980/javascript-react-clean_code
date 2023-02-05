@@ -394,6 +394,7 @@ One liner clean code snippets in javascript/react with ES6 syntax
 
 ## Disclaimer
 
+These code snippets are not to understand how to do a task from scratch, assuming that you already know how to achieve a given task successfully, above snippets focus more on clean, reusability, optimisation and lesser-code principle to make the code simple, organised and enhanced.
 The code snippets mentioned in this repository are the summary of frequently used codes in Javascript and/or React with ES6 syntax. We cannot guarantee that only these snippets will actually make the code cleaner, smoother and optimised, nor should you focus on copying and pasting them all. The primary purpose is for you to get a sense of how some bulk codes might be replaced with one-liner ES6 conditional and operational statements!
 
 
