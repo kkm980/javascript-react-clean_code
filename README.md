@@ -12,19 +12,19 @@ One liner clean code snippets in javascript/react with ES6 syntax
 | --- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |     |                                                                                                                                                                                                                  |
 | 1   | [Conditional statement](#conditional-statement)                                                                                                                                                                                                 |
-| 2   | [Add a key-value pair in object conditionally](#add-a-key-value-pair-in-object-conditionally)                                                                                                                                                   |
-| 3   | [Deleting a particular key from object](#deleting-a-particular-key-from-object)                                                                                                                                                                                                    |
-| 4   | [Filling array with dummy values](#filling-array-with-dummy-values)                                                                                                                    |
+| 2   | [Add a key-value pair in object conditionally](#add-a-key-value-pair-in-object-conditionally)                                                                                                                                                                          |
+| 3   | [Deleting a particular key from object](#deleting-a-particular-key-from-object)                                                                                                                                                                                                                                                                                                       |
+| 4   | [Filling array with dummy values](#filling-array-with-dummy-values)                                                                                                                                                                                       |
 
-| 5   | [Call function if it exists](#call-function-if-it-exists)                                                                                                                    |
+| 5   | [Call function if it exists](#call-function-if-it-exists)                                                                                                                                                                                            |
 
-| 6   | [String to Number](#string-to-number)                                                                                                                    |
+| 6   | [String to Number](#string-to-number)                                                                                                                                                                                                      |
 
-| 7   | [Console related optimisation](#console-related-optimisation)                                                                                                                    |
+| 7   | [Console related optimisation](#console-related-optimisation)                                                                                                                                                                                          |
 
-| 8   | [Overwrite by default values](#overwrite-by-default-values)                                                                                                                    |
+| 8   | [Overwrite by default values](#overwrite-by-default-values)                                                                                                                                                                                           |
 
-| 9   | [Conditional default value assignment for numbers](#conditional-default-value-assignment-for-numbers)                                                                                                                    |
+| 9   | [Conditional default value assignment for numbers](#conditional-default-value-assignment-for-numbers)                                                                                                                                                                      |
 
 ---
 
@@ -151,13 +151,8 @@ One liner clean code snippets in javascript/react with ES6 syntax
     **[⬆ Back to Top](#table-of-contents)**
 
 
- - More code snippets are being added
-
-
 4. ### Filling array with dummy values
 
-
-   
    **Plain conditional operation**
 
       ```javascript
@@ -351,6 +346,10 @@ One liner clean code snippets in javascript/react with ES6 syntax
         }
         
       ```
+
+  
+    **[⬆ Back to Top](#table-of-contents)**
+
 
 
 9. ### Conditional default value assignment for numbers
